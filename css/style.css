@@ -20,43 +20,197 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1500px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .site-header {
-  width: 100%;
   padding-top: 40px;
   padding-bottom: 45px;
-  max-width: 1440px;
-  height: 800px;
-
+  background-image: url(../img/Rectangle\ 678.png);
 }
-.site-link{
+
+.site-link {
   margin-top: 0;
   color: #333;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1px;
-text-transform: uppercase;
-list-style: none;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  list-style: none;
 }
 
-.site-item{
+.site-container {
   display: flex;
-  
-}
-.site-nav{
-display: flex;
-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
 
 }
-.site-link:not(:last-child){
+
+.site-nav {
+  display: flex;
+  align-items: center;
+
+}
+
+.site-link:not(:last-child) {
   margin-right: 40px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-coffee {
+  color: #000;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.main-coffee-text {
+  width: 100%;
+  margin-top: 0;
+  max-width: 464px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.create-button {
+  margin-top: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+  letter-spacing: 1px;
+  border-radius: 100px;
+  background: #0A775F;
+  padding: 16px 24px;
+  border: navajowhite;
+}
+
+.logo-image {
+  width: 160px;
+  height: 160px;
+  transform: rotate(-25deg);
+  flex-shrink: 0;
+}
+
+/* section */
+
+.section-collection {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-image: url(../img/Rectangle\ 116.png);
+
+}
+
+.types-of-coffee {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.coffee-name {
+  width: 327px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+
+.coffee-making-composition {
+  width: 453px;
+  margin-top: 0;
+  color: #333;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.section-list-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.section-list-coffee {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 214px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-coffee-service {
+  
+  background-image: url(../img/Rectangle.png);
+}
+
+
+
+.why-choose {
+  width: 369px;
+  margin-top: 0;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+  text-align: center;
+}
+
+.coffee-part {
+  width: 581px;
+  color: #FFF;
+  margin-top: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
