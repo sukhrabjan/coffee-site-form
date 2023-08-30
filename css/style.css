@@ -29,7 +29,6 @@ body {
 
 .site-header {
   padding-top: 40px;
-  padding-bottom: 45px;
   background-image: url(../img/Rectangle\ 678.png);
 }
 
@@ -64,12 +63,19 @@ body {
   margin-right: 40px;
 }
 
-.main-header {
+.main-content {
   display: flex;
   justify-content: space-between;
+  padding-right: 0;
+  padding-left: 100px;
+align-items: center;
+}
+.main-header{
+  display: flex;  
 }
 
 .main-coffee {
+  margin-top: 0;
   color: #000;
   font-family: Roboto;
   font-size: 64px;
@@ -107,15 +113,29 @@ body {
   background: #0A775F;
   padding: 16px 24px;
   border: navajowhite;
+  margin-bottom: 249px;
+}
+
+.footer-image{
+  position: relative;
 }
 
 .logo-image {
+  display: flex;
   width: 160px;
   height: 160px;
   transform: rotate(-25deg);
   flex-shrink: 0;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+
 }
 
+.logo-coffee{
+  width: 710px;
+  height: 696px;
+}
 /* section */
 
 .section-collection {
@@ -127,6 +147,12 @@ body {
 
 }
 
+.main-third-and-fourth{
+  margin-right: 114px;
+}
+.main-first-and-second{
+  margin-left: 114px;
+}
 .types-of-coffee {
   color: #000;
   text-align: center;
@@ -153,6 +179,11 @@ body {
   font-variant: all-small-caps;
 }
 
+.section{
+  
+  margin-bottom: 121px;
+}
+
 .coffee-making-composition {
   width: 453px;
   margin-top: 0;
@@ -167,21 +198,19 @@ body {
 .section-list-ul {
   margin: 0;
   padding: 0;
+  
 }
 
-.section-list-coffee {
-  list-style: none;
+.section-list-coffee{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 214px;
+  list-style: none;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
+.section-list-coffee:nth-child(even){
+  flex-direction: row-reverse;
 }
-
 .main-coffee-service {
   
   background-image: url(../img/Rectangle.png);
